@@ -21,7 +21,7 @@ accessible buckets and unauthorized service account access.
 ### `config.yaml`
 Define approved service accounts allowed to access buckets:
 
-```yaml
+###```yaml
 allowed_service_accounts:
   - drift-monitor-sa@my-project.iam.gserviceaccount.com
 
