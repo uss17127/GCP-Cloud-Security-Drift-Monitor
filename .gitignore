@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Credentials
+*.json
+.env
+
+# Local config
+config.yaml
+
+# macOS
+.DS_Store
+
