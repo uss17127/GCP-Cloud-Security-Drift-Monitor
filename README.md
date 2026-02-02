@@ -21,20 +21,19 @@ accessible buckets and unauthorized service account access.
 ### `config.yaml`
 Define approved service accounts allowed to access buckets:
 
-###```yaml
+##yaml
 allowed_service_accounts:
   - drift-monitor-sa@my-project.iam.gserviceaccount.com
 
 ---
 
 ## Project Structure
-
-gcp-drift-monitor/
-├── drift_checker.py
-├── config.yaml
-├── requirements.txt
-├── Dockerfile
-└── venv/
+gcp-drift-monitor/\
+├── Dockerfile\
+├── README.md\
+├── main.py\
+├── requirements.txt\
+└── creds.json\
 
 ---
 
@@ -48,7 +47,7 @@ This tool uses **Google Application Default Credentials** to authenticate with G
 
 Set the path to your credentials file:
 
-```bash
+##bash
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/creds.json
 
 ---
