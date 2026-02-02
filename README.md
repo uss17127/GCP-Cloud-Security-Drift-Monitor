@@ -36,7 +36,7 @@ gcp-drift-monitor/
 ├── Dockerfile
 └── venv/
 
-___
+---
 
 ## Authentication
 
@@ -51,7 +51,7 @@ Set the path to your credentials file:
 ```bash
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/creds.json
 
-___
+---
 
 ## Build Docker image and run container
 
